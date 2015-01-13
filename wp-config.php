@@ -17,9 +17,9 @@
 switch ($_SERVER['SERVER_NAME']) {
   case 'localhost':
     $cleardb_server = 'localhost';
-    $cleardb_username = 'wordpress-heroku';
-    $cleardb_password = 'wordpress-heroku';
-    $cleardb_db = 'wordpress-heroku';
+    $cleardb_username = 'actionably-wp';
+    $cleardb_password = 'actionably-wp';
+    $cleardb_db = 'actionably-wp';
   break;
   default:
     // heroku cleardb settings.
